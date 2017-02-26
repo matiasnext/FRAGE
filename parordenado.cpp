@@ -2,21 +2,21 @@
 
 using namespace std;
 
-void mostrar();
+void mostrar(int, int);
 
 int main()
 {
-  int x,y;
+    int x,y;
 	cout << "Ingresaar coordenada x" << endl;
 	cin >> x;
 	cout << "Ingresaar coordenada y" << endl;
 	cin >> y;
-	mostrar();
+	mostrar(x,y);
 return 0;
 }
 
-void mostrar ()
+void mostrar (int a, int b)
 {
 	cout << "El par ordenado es: ";
-	cout << "(" << x << "," << y << ")" << endl;
+	cout << "(" << a << "," << b << ")" << endl;
 }
