@@ -9,5 +9,5 @@ int main ()
     cout << "Ingrese numero de mes que desea mostrar: ";
     cin >> mes;
     cout << mes << "Corresponde al mes " << vec[mes-1] << endl;
-    return 0;
+return 0;
 }
