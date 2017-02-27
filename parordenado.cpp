@@ -1,5 +1,3 @@
-//Dado dos valores, desarrollar una función con su prototipo correspondiente, que muestre los valores como par ordenado.
-
 #include <iostream>
 
 using namespace std;
